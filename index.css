@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:80%;
+}
+
+.subNavBar span{
+    width: 100%;
+    display: flex;
+    background-color: rgb(29, 21, 21);
+    color: white;
+    padding: 20px 0px;
+}
+.subNavBar span p{
+    margin: 0 20px;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    background-color: rgb(29, 21, 21);
+    color: white;
+    top: 0;
+
+}
+.navbar h2{
+    margin: 0 20px;
+    font-size: 40px;
+}
+.navbarLi{
+    list-style: none;
+    display: flex;
+    margin: 0 60px;
+}
+.navbarLi li{
+    padding: 20px 20px;   
+}
+.navbarLi li a{
+    text-decoration: none; 
+    color: white;
+    font-size: 20px;
+}
+
+/* main content start */
+.maincontent{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/kevin-schmid-ftA71vetxuo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+.background-color{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.425);
+    text-align: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.background-color h1{
+    font-size: 80px;
+}
+
+
+/* main content end */
+
+
+
+
